@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background-color: hsla(258, 55%, 86%, 0.2);
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+svg {
+  width: 100%;
+}
+
+@keyframes cloud {
+  0% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+.cloud01 {
+  animation: cloud 30s linear infinite backwards;
+}
+
+.cloud02 {
+  animation: cloud 20s 2s linear infinite backwards;
+}
+
+.cloud03 {
+  animation: cloud 10s 2s linear infinite backwards;
+}
+
+.cloud04 {
+  animation: cloud 40s 3s linear infinite backwards;
+}
+
+.cloud05 {
+  animation: cloud 20s 10s linear infinite backwards;
+}
+
+.cloud06 {
+  animation: cloud 50s 1s linear infinite backwards;
+}
+
+.cloud07 {
+  animation: cloud 15s linear infinite backwards;
+}
+
+.cloud08 {
+  animation: cloud 20s linear infinite backwards;
+}
